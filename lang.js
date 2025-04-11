@@ -18,9 +18,8 @@ const translations = {
     governments — it’s going to take creativity, knowledge, tech, and financial support from people and communities
     everywhere.`,
     team_title: "Team Members",
-    emily: "Project coordinator and researcher on SDG education initiatives",
-    justin: "Content designer focused on SDG 3,5",
-    miguel: "Web developer and focused on SDG 4.",
+    emily: "Project coordinator and researcher on SDG gender equality",
+    miguel: "Web developer and Content designer focused on SDG 3,4",
     sdg_title: "The Key Principles of the SDGs:",
     sdg_principles: "The Sustainable Development Goals (SDGs) are guided by the following key principles:",
     sdg_principles_list: "", // handled in HTML
@@ -32,7 +31,15 @@ const translations = {
     project_title: "Project Overview",
     project_overview: "This blog is part of a collaborative project between Universidad del Noreste and Mercy University, focusing on the Sustainable Development Goals (SDGs). Our aim is to raise awareness and promote action towards achieving these goals.",
     uni_title: "Participating Universities",
-    rights: "All rights reserved."
+    rights: "All rights reserved.",
+    video_title: "Watch & Learn",
+    video_description: "Watch this short video to learn more about the Sustainable Development Goals.",
+    why_title: "Why These Goals Matter—Together",
+    why_p1: "Here’s the thing: health, education, and gender equality aren’t separate issues. They’re deeply connected. A girl in a rural area who can’t access healthcare might also miss school. A lack of education can lead to poorer health outcomes. Gender inequality can limit someone’s ability to get a job, afford care, or even go to school in the first place.",
+    why_p2: "That’s why the SDGs are designed to work together. Progress in one area creates momentum in others. But to make that progress, we need action—not just from governments and organizations, but from all of us. Whether it’s raising awareness, volunteering, or simply using our voices, we all have a role to play.",
+    why_p3: "The future is in our hands. Let’s make it one where everyone has the chance to live a healthy life, get a good education, and be treated equally—no matter who they are.",
+
+
   },
   es: {
     nav_home: "Inicio",
@@ -48,9 +55,8 @@ const translations = {
     Una parte esencial del compromiso es ayudar primero a los más desfavorecidos. Los ODS buscan acabar con cosas como la pobreza extrema, el hambre, el SIDA y la discriminación de género. 
     Alcanzar estos objetivos no depende solo de los gobiernos: se necesita creatividad, conocimiento, tecnología y apoyo financiero de personas y comunidades de todo el mundo.`,
     team_title: "Miembros del Equipo",
-    emily: "Coordinadora del proyecto e investigadora en iniciativas educativas de los ODS",
-    justin: "Diseñador de contenido enfocado en los ODS 3 y 5",
-    miguel: "Desarrollador web enfocado en el ODS 4",
+    emily: "Coordinadora del proyecto e investigadora en igualdad de genero de los ODS",
+    miguel: "Desarrollador web enfocado en el ODS 3,4",
     sdg_title: "Principios Clave de los ODS:",
     sdg_principles: "Los Objetivos de Desarrollo Sostenible (ODS) se guían por los siguientes principios clave:",
     sdg_principles_list: "", // handled in HTML
@@ -62,7 +68,13 @@ const translations = {
     project_title: "Resumen del Proyecto",
     project_overview: "Este blog forma parte de un proyecto colaborativo entre la Universidad del Noreste y Mercy University, enfocado en los Objetivos de Desarrollo Sostenible (ODS). Nuestro objetivo es crear conciencia y promover acciones para alcanzarlos.",
     uni_title: "Universidades Participantes",
-    rights: "Todos los derechos reservados."
+    rights: "Todos los derechos reservados.",
+    video_title: "Mira y Aprende",
+    video_description: "Mira este breve video para conocer más sobre los Objetivos de Desarrollo Sostenible.",
+    why_title: "Por Qué Estos Objetivos Importan—Juntos",
+    why_p1: "La cuestión es esta: la salud, la educación y la igualdad de género no son temas separados. Están profundamente conectados. Una niña en una zona rural que no puede acceder a atención médica también podría faltar a la escuela. La falta de educación puede llevar a peores resultados de salud. La desigualdad de género puede limitar la capacidad de una persona para conseguir un empleo, pagar atención médica o incluso asistir a la escuela desde el principio.",
+    why_p2: "Por eso los ODS están diseñados para trabajar en conjunto. El progreso en un área impulsa el avance en otras. Pero para lograr ese progreso, necesitamos acción, no solo de los gobiernos y organizaciones, sino de todos nosotros. Ya sea concientizando, haciendo voluntariado o simplemente usando nuestra voz, todos tenemos un papel que desempeñar.",
+    why_p3: "El futuro está en nuestras manos. Hagamos que sea uno en el que todos tengan la oportunidad de vivir una vida saludable, recibir una buena educación y ser tratados con igualdad—sin importar quiénes sean.",
   }
 };
 
