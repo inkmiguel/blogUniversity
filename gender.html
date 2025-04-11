@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gender Equality</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
 
   <!-- Navbar -->
@@ -20,9 +22,12 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="index.html" data-key="nav_home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="health.html" data-key="nav_health">Good Health and Well-Being</a></li>
-          <li class="nav-item"><a class="nav-link" href="education.html" data-key="nav_education">Quality Education</a></li>
-          <li class="nav-item"><a class="nav-link active" href="gender.html" data-key="nav_gender">Gender Equality</a></li>
+          <li class="nav-item"><a class="nav-link" href="health.html" data-key="nav_health">Good Health and
+              Well-Being</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html" data-key="nav_education">Quality Education</a>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="gender.html" data-key="nav_gender">Gender Equality</a>
+          </li>
         </ul>
         <div class="ms-3">
           <button id="langBtn" class="btn btn-outline-light btn-sm">ES 🇪🇸</button>
@@ -41,7 +46,13 @@
     <section class="mb-5">
       <h2 class="text-primary" data-key="goal_overview">Goal Overview</h2>
       <p data-key="overview">
-        SDG 5 aims to achieve gender equality and empower all women and girls. It seeks to end all forms of discrimination, violence, and harmful practices, as well as ensuring equal participation in leadership roles, access to education, and economic resources.
+        Gender equality isn’t just a women’s issue—it’s a human issue. SDG 5 is all about ending discrimination,
+        violence, and unequal treatment based on gender. That means standing up for equal rights in education, the
+        workplace, healthcare, politics, and at home. It also means ensuring access to reproductive health services and
+        tackling harmful practices like child marriage and gender-based violence.
+        When women and girls are given the same opportunities as men and boys, everyone benefits. Societies are more
+        peaceful, economies are stronger, and future generations are healthier and better educated.
+
       </p>
     </section>
 
@@ -49,7 +60,8 @@
     <section class="mb-5">
       <h2 class="text-warning" data-key="gender_gap_title">Gender Gap in Education</h2>
       <p data-key="gender_gap_intro">
-        Despite significant progress, gender disparities in education still persist. This section looks at the gender gap in education access across different countries.
+        Despite significant progress, gender disparities in education still persist. This section looks at the gender
+        gap in education access across different countries.
       </p>
       <canvas id="genderGapChart"></canvas>
     </section>
@@ -58,7 +70,8 @@
     <section class="mb-5">
       <h2 class="text-warning" data-key="gender_pay_gap_title">Gender Pay Gap</h2>
       <p data-key="gender_pay_gap_intro">
-        The gender pay gap continues to be a significant issue worldwide. This chart shows the differences in average earnings between men and women in various countries.
+        The gender pay gap continues to be a significant issue worldwide. This chart shows the differences in average
+        earnings between men and women in various countries.
       </p>
       <canvas id="genderPayGapChart"></canvas>
     </section>
@@ -67,7 +80,8 @@
     <section class="mb-5">
       <h2 class="text-info" data-key="women_in_leadership_title">Women in Leadership</h2>
       <p data-key="women_in_leadership_intro">
-        Women's participation in leadership roles is essential for achieving gender equality. This section explores the current state of women in political and business leadership.
+        Women's participation in leadership roles is essential for achieving gender equality. This section explores the
+        current state of women in political and business leadership.
       </p>
       <canvas id="womenLeadershipChart"></canvas>
     </section>
@@ -75,7 +89,9 @@
     <section>
       <h2 class="text-danger" data-key="case_study">Case Study: Gender Equality in Iceland</h2>
       <p data-key="case_study_text">
-        Iceland has made significant strides toward gender equality, consistently ranking as one of the best countries for women’s rights. Its policies on equal pay, parental leave, and political representation have led to higher gender equality outcomes.
+        Iceland has made significant strides toward gender equality, consistently ranking as one of the best countries
+        for women’s rights. Its policies on equal pay, parental leave, and political representation have led to higher
+        gender equality outcomes.
       </p>
     </section>
   </main>
@@ -92,4 +108,5 @@
   <script src="./gender.js"></script>
 
 </body>
+
 </html>
