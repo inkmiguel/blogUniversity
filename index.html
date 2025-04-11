@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SDG Blog - Home</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SDG Blog - Home</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <!-- Navbar -->
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
     <div class="container">
       <a class="navbar-brand" href="index.html">🌍 SDG Blog</a>
@@ -22,8 +22,10 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" href="index.html" data-key="nav_home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="health.html" data-key="nav_health">Good Health and Well-Being</a></li>
-          <li class="nav-item"><a class="nav-link" href="education.html" data-key="nav_education">Quality Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="health.html" data-key="nav_health">Good Health and
+              Well-Being</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html" data-key="nav_education">Quality Education</a>
+          </li>
           <li class="nav-item"><a class="nav-link" href="gender.html" data-key="nav_gender">Gender Equality</a></li>
         </ul>
         <!-- Language Button -->
@@ -38,14 +40,58 @@
   <main class="container my-5">
     <section class="text-center mb-5">
       <h1 class="display-4 text-primary" data-key="welcome">Welcome to Our SDG Blog</h1>
-      <p class="lead" data-key="intro">Explore key global goals and discover how we can build a better future together.</p>
+      <p class="lead" data-key="intro">Explore key global goals and discover how we can build a better future together.
+      </p>
+
+      <!-- Centramos el carrusel -->
+      <div class="d-flex justify-content-center">
+        <div class="col-lg-6">
+          <div id="goalsCarousel" class="carousel slide rounded shadow" data-bs-ride="carousel">
+            <div class="carousel-inner rounded-4">
+              <div class="carousel-item active">
+                <img src="https://4gamechangers.io/_ipx/w_1800,f_png,q_80,fit_cover/gc/assets/sdg_logo.png"
+                  class="d-block w-100" alt="Goal Image 1">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://media.istockphoto.com/id/1459130410/es/vector/ni%C3%B1os-sanos.jpg?s=612x612&w=0&k=20&c=oxK3Vf5aJ3RbhiDsZ2lG04p1quFTwBvGnGR4ISfLg5w="
+                  class="d-block w-100" alt="Goal Image 2">
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://datatopics.worldbank.org/sdgatlas/archive/2020/es/goal-4-quality-education/static/media/sdg04-illo-crop.17cb572e.png"
+                  class="d-block w-100" alt="Goal Image 3">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.voicesofyouth.org/sites/voy/files/images/2022-03/images_2.jpeg"
+                  class="d-block w-100" alt="Goal Image 4">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#goalsCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#goalsCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
+
 
     <section>
       <h2 class="mb-4 text-primary" data-key="about_title">About SDG</h2>
       <p data-key="about_intro">
-        The Sustainable Development Goals (SDGs), also called the Global Goals, were introduced by the United Nations in 2015 as a worldwide effort to tackle major challenges like poverty, inequality, and climate change by 2030. There are 17 goals in total, and they’re all connected progress in one area often supports progress in others. The whole idea is to promote development that’s socially, economically, and environmentally sustainable. 
-        A big part of the commitment is to help those who are the most disadvantaged first. The SDGs aim to end things like extreme poverty, hunger, AIDS, and gender-based discrimination. Reaching these goals isn’t just up to governments—it’s going to take creativity, knowledge, tech, and financial support from people and communities everywhere. 
+        The Sustainable Development Goals (SDGs), also called the Global Goals, were introduced by the United Nations in
+        2015 as a worldwide effort to tackle major challenges like poverty, inequality, and climate change by 2030.
+        There are 17 goals in total, and they’re all connected progress in one area often supports progress in others.
+        The whole idea is to promote development that’s socially, economically, and environmentally sustainable.
+        A big part of the commitment is to help those who are the most disadvantaged first. The SDGs aim to end things
+        like extreme poverty, hunger, AIDS, and gender-based discrimination. Reaching these goals isn’t just up to
+        governments—it’s going to take creativity, knowledge, tech, and financial support from people and communities
+        everywhere.
       </p>
       <div class="list-group">
         <a href="./health.html" class="list-group-item list-group-item-action">
@@ -58,7 +104,8 @@
           <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">Quality education</h5>
           </div>
-          <p class="mb-1">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</p>
+          <p class="mb-1">Ensure inclusive and equitable quality education and promote lifelong learning opportunities
+            for all.</p>
         </a>
         <a href="./gender.html" class="list-group-item list-group-item-action">
           <div class="d-flex w-100 justify-content-between">
@@ -100,47 +147,57 @@
     </section>
 
     <section>
-      <h2 class="mb-4 text-warning" data-key="sdg_title">The Key Principles of the SDGs:</h2> 
-      <p data-key="sdg_principles">The Sustainable Development Goals (SDGs) are guided by the following key principles:</p>
+      <h2 class="mb-4 text-warning" data-key="sdg_title">The Key Principles of the SDGs:</h2>
+      <p data-key="sdg_principles">The Sustainable Development Goals (SDGs) are guided by the following key principles:
+      </p>
       <ul class="list-group mb-3" data-key="sdg_principles_list">
         <li class="list-group-item">
-          <strong>Universality:</strong> The SDGs apply to all countries, rich and poor, and aim to address global challenges.
+          <strong>Universality:</strong> The SDGs apply to all countries, rich and poor, and aim to address global
+          challenges.
         </li>
         <li class="list-group-item">
-          <strong>Integration:</strong> The goals are interconnected, meaning achieving one goal can contribute to others.
+          <strong>Integration:</strong> The goals are interconnected, meaning achieving one goal can contribute to
+          others.
         </li>
         <li class="list-group-item">
-          <strong>Leave No One Behind:</strong> The SDGs emphasize ensuring that all people, especially the most vulnerable, are included in the progress made.
+          <strong>Leave No One Behind:</strong> The SDGs emphasize ensuring that all people, especially the most
+          vulnerable, are included in the progress made.
         </li>
       </ul>
-      <p>By focusing on these 17 goals, the SDGs aim to build a more just, inclusive, and sustainable world, addressing social, economic, and environmental dimensions of development.</p>
+      <p>By focusing on these 17 goals, the SDGs aim to build a more just, inclusive, and sustainable world, addressing
+        social, economic, and environmental dimensions of development.</p>
     </section>
-    
+
     <section class="mb-5">
       <h2 class="mb-4 text-primary" data-key="better_future_title">
         Building a Better Future: Why Health, Education, and Gender Equality Matter More Than Ever
       </h2>
       <p class="lead" data-key="better_future_intro">
-        When we talk about changing the world, it can feel overwhelming. Where do we even start? The United Nations’ Sustainable Development Goals (SDGs) give us a roadmap, and three of those goals hit especially close to home: 
-        <strong>Good Health and Well-Being</strong>, <strong>Quality Education</strong>, and <strong>Gender Equality</strong>.
+        When we talk about changing the world, it can feel overwhelming. Where do we even start? The United Nations’
+        Sustainable Development Goals (SDGs) give us a roadmap, and three of those goals hit especially close to home:
+        <strong>Good Health and Well-Being</strong>, <strong>Quality Education</strong>, and <strong>Gender
+          Equality</strong>.
       </p>
       <p data-key="better_future_body">
-        These goals aren’t just idealistic visions—they’re real, urgent, and necessary for building a better, more equal future.
+        These goals aren’t just idealistic visions—they’re real, urgent, and necessary for building a better, more equal
+        future.
       </p>
     </section>
-    
+
 
     <section>
       <h2 class="mb-4 text-danger" data-key="project_title">Project Overview</h2>
       <p data-key="project_overview">
-        This blog is part of a collaborative project between Universidad del Noreste and Mercy University, focusing on the Sustainable Development Goals (SDGs). Our aim is to raise awareness and promote action towards achieving these goals.
+        This blog is part of a collaborative project between Universidad del Noreste and Mercy University, focusing on
+        the Sustainable Development Goals (SDGs). Our aim is to raise awareness and promote action towards achieving
+        these goals.
       </p>
     </section>
 
     <div class="container my-5">
       <h2 class="text-center mb-4">Why These Goals Matter—Together</h2>
     
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-lg-6 mb-4">
           <p>
             Here’s the thing: health, education, and gender equality aren’t separate issues. They’re deeply connected.
@@ -158,36 +215,10 @@
             get a good education, and be treated equally—no matter who they are.
           </p>
         </div>
-    
-        <div class="col-lg-6">
-          <div id="goalsCarousel" class="carousel slide rounded shadow" data-bs-ride="carousel">
-            <div class="carousel-inner rounded-4">
-              <div class="carousel-item active">
-                <img src="https://4gamechangers.io/_ipx/w_1800,f_png,q_80,fit_cover/gc/assets/sdg_logo.png" class="d-block w-100" alt="Goal Image 1">
-              </div>
-              <div class="carousel-item">
-                <img src="https://media.istockphoto.com/id/1459130410/es/vector/ni%C3%B1os-sanos.jpg?s=612x612&w=0&k=20&c=oxK3Vf5aJ3RbhiDsZ2lG04p1quFTwBvGnGR4ISfLg5w=" class="d-block w-100" alt="Goal Image 2">
-              </div>
-              <div class="carousel-item">
-                <img src="https://datatopics.worldbank.org/sdgatlas/archive/2020/es/goal-4-quality-education/static/media/sdg04-illo-crop.17cb572e.png" class="d-block w-100" alt="Goal Image 3">
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.voicesofyouth.org/sites/voy/files/images/2022-03/images_2.jpeg" class="d-block w-100" alt="Goal Image 4">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#goalsCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#goalsCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
       </div>
     </div>
     
+
 
     <section>
       <h2 class="mb-4 text-info" data-key="uni_title">Participating Universities</h2>
@@ -203,9 +234,9 @@
     <p class="mb-0">&copy; 2025 SDG Blog. <span data-key="rights">All rights reserved.</span></p>
   </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lang.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lang.js"></script>
 </body>
 
 </html>
