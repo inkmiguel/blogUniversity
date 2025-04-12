@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Good Health and Well-Being</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
 
   <!-- Navbar -->
@@ -33,53 +35,115 @@
 
   <!-- Main Content -->
   <main class="container my-5">
+
+    <!-- Intro -->
     <section class="text-center mb-5">
       <h1 class="display-4 text-success" data-key="title">Good Health and Well-Being</h1>
       <p class="lead" data-key="intro">Ensuring healthy lives and promoting well-being for all at all ages is essential to sustainable development.</p>
     </section>
 
+    <!-- Overview -->
     <section class="mb-5">
       <h2 class="text-primary" data-key="goal_overview">Goal Overview</h2>
       <p data-key="overview">
-        Health is the foundation of everything. You can’t focus on your education or career if you're constantly battling illness or if healthcare is out of reach. SDG 3 is about making sure everyone, no matter where they live, has access to quality healthcare services. That means fighting diseases like HIV/AIDS and malaria, improving mental health support, reducing maternal and infant mortality rates, and making vaccines and medicines accessible to all. 
-The COVID-19 pandemic exposed major cracks in global health systems, but it also reminded us how connected we all are. If we want strong, resilient societies, health has to come first. 
-
+        Health is the foundation of everything. You can’t focus on your education or career if you're constantly battling illness or if healthcare is out of reach. SDG 3 is about making sure everyone, no matter where they live, has access to quality healthcare services. That means fighting diseases like HIV/AIDS and malaria, improving mental health support, reducing maternal and infant mortality rates, and making vaccines and medicines accessible to all.
+        The COVID-19 pandemic exposed major cracks in global health systems, but it also reminded us how connected we all are. If we want strong, resilient societies, health has to come first.
       </p>
     </section>
 
-    <!-- Esperanza de Vida -->
+    <!-- SDG 3 Details -->
+    <section class="mb-5">
+      <h2 class="text-center mb-4" data-key="sdg3_title">SDG 3: Good Health and Well-Being – The Foundation for a Better World</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <p data-key="sdg3_intro">We hear a lot about the importance of health—but it's easy to take it for granted until something goes wrong. That’s why Good Health and Well-Being, also known as SDG 3, is one of the 17 Sustainable Development Goals created by the United Nations. The mission? To ensure healthy lives and promote well-being for people of all ages, everywhere.</p>
+          <p data-key="sdg3_vision">This goal isn’t just about getting people to the doctor when they’re sick—it’s about making sure everyone has the chance to live a long, healthy, and meaningful life.</p>
+
+          <h3 class="mt-5" data-key="sdg3_focus_title">What Does SDG 3 Actually Focus On?</h3>
+          <ul>
+            <li data-key="sdg3_point1">Reducing maternal and child mortality</li>
+            <li data-key="sdg3_point2">Ending epidemics like HIV/AIDS, tuberculosis, and malaria</li>
+            <li data-key="sdg3_point3">Ensuring universal access to healthcare services and affordable medicines</li>
+            <li data-key="sdg3_point4">Improving mental health and well-being</li>
+            <li data-key="sdg3_point5">Promoting health education and awareness</li>
+          </ul>
+          <p data-key="sdg3_preparedness">It also emphasizes preparedness for global health threats—something the world learned a lot about during the COVID-19 pandemic.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Charts -->
     <section class="mb-5">
       <h2 class="text-warning" data-key="life_expectancy_title">Life Expectancy</h2>
-      <p data-key="life_expectancy_intro">
-        Life expectancy is one of the most important health indicators globally. The following chart shows the life expectancy of several countries with the highest and lowest averages.
-      </p>
+      <p data-key="life_expectancy_intro">Life expectancy is one of the most important health indicators globally. The following chart shows the life expectancy of several countries with the highest and lowest averages.</p>
       <canvas id="lifeExpectancyChart"></canvas>
     </section>
 
-    <!-- Mortalidad Infantil -->
     <section class="mb-5">
       <h2 class="text-warning" data-key="infant_mortality_title">Infant Mortality Rate</h2>
-      <p data-key="infant_mortality_intro">
-        The infant mortality rate is a key indicator of a nation's healthcare system. The following chart compares countries with the highest and lowest infant mortality rates.
-      </p>
+      <p data-key="infant_mortality_intro">The infant mortality rate is a key indicator of a nation's healthcare system. The following chart compares countries with the highest and lowest infant mortality rates.</p>
       <canvas id="infantMortalityChart"></canvas>
     </section>
 
-    <!-- Acceso a Servicios de Salud -->
     <section class="mb-5">
       <h2 class="text-info" data-key="health_access_title">Access to Health Services</h2>
-      <p data-key="health_access_intro">
-        Access to healthcare services is essential to improving health outcomes. Here is a comparison of countries with the best and worst access to healthcare.
-      </p>
+      <p data-key="health_access_intro">Access to healthcare services is essential to improving health outcomes. Here is a comparison of countries with the best and worst access to healthcare.</p>
       <canvas id="healthAccessChart"></canvas>
     </section>
 
-    <section>
-      <h2 class="text-danger" data-key="case_study">Case Study: Improving Health in Rural Areas</h2>
-      <p data-key="case_study_text">
-        A successful example is the implementation of mobile health clinics in rural areas. These clinics bring healthcare services directly to communities, improving access to primary care and reducing preventable diseases. This model has shown success in countries like India and Kenya.
-      </p>
+    <!-- The Global Health Divide -->
+    <section class="mb-5">
+      <h3 class="mt-5" data-key="sdg3_divide_title">The Global Health Divide</h3>
+      <p data-key="sdg3_divide_p1">Even though health is a basic human right, access to quality healthcare is still incredibly unequal. In many parts of the world, people don’t have reliable access to hospitals, doctors, clean water, or even basic medicines. In fact, over 5 million children under age five still die every year from preventable causes.</p>
+      <p data-key="sdg3_divide_p2">Mental health is another silent crisis. Depression, anxiety, and suicide are on the rise globally, yet mental health services remain underfunded and stigmatized.</p>
+      <p data-key="sdg3_divide_p3">Meanwhile, pandemics, pollution, poor nutrition, and lack of clean environments continue to put millions of lives at risk—especially in low-income and marginalized communities.</p>
     </section>
+
+    <!-- Why Health Matters -->
+    <section class="mb-5">
+      <h3 class="mt-5" data-key="sdg3_why_title">Why Health Matters for Everyone</h3>
+      <p data-key="sdg3_why_p1">Health isn’t just about surviving—it’s about thriving. When people are healthy, they can work, learn, care for their families, and contribute to society. Good health supports economic stability, educational outcomes, gender equality, and even climate resilience.</p>
+      <p data-key="sdg3_why_p2">Simply put: without good health, sustainable development is impossible.</p>
+    </section>
+
+    <!-- What’s Being Done -->
+    <section class="mb-5">
+      <h3 class="mt-5" data-key="sdg3_whats_done">What’s Being Done?</h3>
+      <p data-key="sdg3_done_p1">Organizations like the World Health Organization (WHO), UNICEF, and countless NGOs are working to close health gaps around the world. Their efforts include:</p>
+      <ul>
+        <li data-key="sdg3_done1">Vaccination campaigns (like for polio, measles, and COVID-19)</li>
+        <li data-key="sdg3_done2">Reproductive health programs</li>
+        <li data-key="sdg3_done3">Mental health awareness and support initiatives</li>
+        <li data-key="sdg3_done4">Building healthcare infrastructure in underserved areas</li>
+        <li data-key="sdg3_done5">Technology is also helping: mobile health clinics, telemedicine, and AI-powered diagnostics</li>
+      </ul>
+    </section>
+
+    <!-- How You Can Help -->
+    <section class="mb-5">
+      <h3 class="mt-5" data-key="sdg3_help_title">How You Can Help</h3>
+      <ul>
+        <li data-key="sdg3_help1">Speak up about mental health and help reduce stigma</li>
+        <li data-key="sdg3_help2">Support global health organizations through donations or volunteering</li>
+        <li data-key="sdg3_help3">Advocate for universal healthcare and better health policies</li>
+        <li data-key="sdg3_help4">Educate yourself and others on issues like sexual health, nutrition, and mental well-being</li>
+        <li data-key="sdg3_help5">Make healthy choices in your own life—what we do individually adds up</li>
+      </ul>
+    </section>
+
+    <!-- Final Thoughts -->
+    <section class="mb-5">
+      <h3 class="mt-5" data-key="sdg3_final_title">Final Thoughts</h3>
+      <p data-key="sdg3_final_p1">At the end of the day, health is the foundation of everything else—education, work, relationships, and overall well-being. SDG 3 reminds us that no one should have to suffer or die because they can’t afford treatment or don’t have access to basic healthcare.</p>
+      <p data-key="sdg3_final_p2">A healthier world is a stronger, more just world. Let’s work toward one where good health isn’t a privilege—it’s a reality for everyone.</p>
+    </section>
+
+    <!-- Case Study -->
+    <section class="mb-5">
+      <h2 class="text-danger" data-key="case_study">Case Study: Improving Health in Rural Areas</h2>
+      <p data-key="case_study_text">A successful example is the implementation of mobile health clinics in rural areas. These clinics bring healthcare services directly to communities, improving access to primary care and reducing preventable diseases. This model has shown success in countries like India and Kenya.</p>
+    </section>
+
   </main>
 
   <!-- Footer -->
@@ -94,4 +158,5 @@ The COVID-19 pandemic exposed major cracks in global health systems, but it also
   <script src="./health.js"></script>
 
 </body>
+
 </html>
